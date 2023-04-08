@@ -10,6 +10,7 @@ body{
   position: relative;
 }
 #logo{
+  color: #fff;
   position: absolute;
   top:15px;
   left:20px;
@@ -58,6 +59,7 @@ ul#list{
 }
 
 #list li a:hover{
+  border-radius: 5px;
   padding: 10px 30px;
   background-color: dodgerblue;
   color:#fff;
@@ -75,6 +77,7 @@ ul#list{
    width:  300px;
    margin-top: -100px;
    margin-bottom: 30px;
+   
  }
  p#text-info{
    text-align: center;
@@ -83,7 +86,7 @@ ul#list{
    color:#fff;
  }
  button{
-   margin:20px 0 0 100px;
+   margin:20px 0 0 70px;
    font-size:1rem;
    padding: 10px 30px;
    border: 1px solid deepskyblue;
@@ -106,8 +109,9 @@ ul#list{
  div#about-section h1, div#skill-section h1, div#contact-section h1{
    font-size: 1.8rem;
    letter-spacing: 2px;
-   color:teal;
+   color:#fff;
    margin-bottom: 20px;
+   text-shadow: 2px 2px 2px #000;
  }
  div#about-section #about-info, div#contact-section #contact-info{
    color: #fff;
@@ -120,6 +124,11 @@ ul#list{
  span{
    color: teal;
    font-size: 1.2rem;
+   font-weight: bold;
+ }
+ .style{
+   color:dodgerblue;
+   font-size: 1.8rem;
    font-weight: bold;
  }
  div#skill-section, div#skill-section #subtitle{
@@ -140,7 +149,7 @@ ul#list{
   width:  80px; 
   border-radius:50%;
   background-color:#fff;
-  box-shadow: 3px 3px 5px wheat;
+  box-shadow: 3px 3px 5px #000;
   margin:15px 10px;
   transition: .5s ease;
  }
@@ -150,7 +159,7 @@ ul#list{
 div#contact-section a{
    border: 1px solid teal;
    border-radius:5px;
-   color:teal;
+   color:#fff;
    font-size: 1rem;
    text-decoration: none;
    padding: 10px 40px;
@@ -178,18 +187,17 @@ div#contact-section a{
  margin:15px 10px;
  }
  div#social-media-icon .fa-facebook{
- color:dodgerblue;
+ color:#fff;
  }
 div#social-media-icon .fa-linkedin{
-  color:blue;
+  color:#fff;
 }
 div#social-media-icon .fa-github{
-  color:orange;
+  color:#fff;
 }
 div#social-media-icon .fa-twitter{
-  color:skyblue;
+  color:#fff;
 }
-
 
 @media (min-width: 768px) and (max-width: 1281px) {
  div#hamburger-menu{
@@ -227,7 +235,7 @@ span{
   font-size: 2rem;
 }
 button{
-  margin-left: 200px;
+  margin-left: 130px;
   color:#fff;
   padding: 10px 30px;
 }
@@ -242,6 +250,7 @@ button{
 }
 div#about-section h1, div#skill-section h1, div#contact-section h1{
    font-size: 3rem;
+   text-shadow: 4px 3px 3px #000;
  }
  div#about-section #about-info, div#contact-section #contact-info{
    margin:0 70px;
@@ -265,4 +274,10 @@ div#about-section h1, div#skill-section h1, div#contact-section h1{
  div#social-media-icon i{
    margin-right: 30px;
  }
+  .style{
+   color:dodgerblue;
+   font-size:3rem;
+   font-weight: bold;
+ }
+ 
     }

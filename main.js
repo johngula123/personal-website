@@ -1,11 +1,14 @@
-
+//Hamburger menu
 function showMenu(){
 let menuList = document.getElementById('list');
-let menu = document.querySelector('ul');
-if (menuList === 'flex'){
- menu.style.display = 'none';
-}
-else{
   menuList.style.display = 'flex';
 }
-}
+
+//typing a word "Web Developer"
+var typing= new Typed(".typeText", {
+       strings: ["", "Web Developer"],
+       typeSpeed: 150,
+       backSpeed: 40,
+       loop: true,
+   });
+
