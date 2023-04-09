@@ -1,9 +1,13 @@
 //Hamburger menu
 function showMenu(){
 let menuList = document.getElementById('list');
-  menuList.style.display = 'flex';
+if (menuList.style.display === "none") {
+    menuList.style.display = "flex";
+  } else {
+    menuList.style.display = "none";
+  }
 }
-
+showMenu()
 //typing a word "Web Developer"
 var typing= new Typed(".typeText", {
        strings: ["", "Web Developer"],
