@@ -22,7 +22,7 @@ div#hamburger-menu{
   margin-top: 10px;
   margin-right: 20px;
 }
-div#hamburger-menu i{
+div#hamburger-menu .fa{
   color: #fff;
   font-size: 2rem;
 }
