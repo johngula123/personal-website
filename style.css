@@ -47,6 +47,7 @@ ul#list{
   display:none;
 }
 #list li{
+  font-size: 1.1rem;
   list-style: none;
   margin-bottom: 30px;
   
